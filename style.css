@@ -1,0 +1,135 @@
+body {
+  background: #fff;
+  padding: 20px;
+  color: #000;
+  font-family: 'Fjalla One', Consolas, Tahoma, sans-serif;
+  font-size: 1.5em;
+  overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+  text-transform: initial;
+  color: #e2e2e2;
+  font-family: 'Doppio One', cursive, sans-serif;
+	letter-spacing: -3px;
+	word-spacing: 5px;
+  font-weight: normal;
+  font-size: 1.5em;
+  margin-right: 50px;
+	display: inline;
+	position: relative;
+	border-bottom: 2px solid #e74c3c;
+	top: 2.5px;
+}
+
+h2 {
+  font-size: 2em;
+	color: #fff;
+}
+
+h3 {
+	color: #3a7ca5;
+}
+
+a {
+  text-decoration: none;
+	color: #e74c3c;
+}
+
+a:hover {
+  text-decoration: underline;
+	color: #e74c3c;
+}
+
+.well {
+  color: black;
+  font-size: 1.25em;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+section {
+	padding: 15px;
+}
+
+div#threejs {
+  background: #122232;
+	position: static;
+	z-index: 1;
+	margin: 0;
+	padding: 0;
+	height: 600px;
+}
+
+nav#navigation {
+  padding: 10px 0 5px 0;
+  text-transform: uppercase;
+	text-align: center;
+	font-size: 1.2em;
+	color: #e2e2e2;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	z-index: 3;
+	min-width: 500px;
+	width: 50%;
+	left: 25%;
+}
+
+nav#navigation>div>div:hover, nav#navigation>div>div:active {
+	color: #3498db;
+}
+
+header#banner {
+	text-align: center;
+	position: absolute;
+	z-index: 2;
+  top: 225px;
+	width: 100%;
+}
+
+section {
+	min-width: 500px;
+	width: 50%;
+	position: relative;
+	left: 25%;
+}
+
+ul li {
+	list-style-type: circle;
+}
+
+section#contact ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+footer {
+  margin: 50px 0 10px 0;
+  text-align: center;
+  font-size: 1.25em;
+}
+
+button#downButton {
+  position: absolute;
+	top: 565px;
+	left: 50%;
+}
+
+button#upButton {
+  position: relative;
+	left: 50%;
+	padding: 0 0 10px 0;
+}
+
+.btn-circle {
+  width: 79px;
+  height: 79px;
+  text-align: center;
+  padding: 0 0 2px 0;
+  font-size: 3em;
+	font-weight: bold;
+  border-radius: 50%;
+}
