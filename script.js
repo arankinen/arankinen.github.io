@@ -90,27 +90,3 @@ $('#upButton').click(function() {
 	$('#upButton').fadeOut('slow');
 	$('#downButton').fadeIn(1000);
 });
-
-$('#aboutLink').click(function() {
-  $('html, body').animate({
-    scrollTop: $('#about').offset().top
-  }, 1000);
-	$('#downButton').fadeOut('slow');
-	$('#upButton').fadeIn(1000);
-});
-
-$('#referenceLink').click(function() {
-  $('html, body').animate({
-    scrollTop: $('#reference').offset().top
-  }, 1000);
-	$('#downButton').fadeOut('slow');
-	$('#upButton').fadeIn(1000);
-});
-
-$('#contactLink').click(function() {
-  $('html, body').animate({
-    scrollTop: $('#contact').offset().top
-  }, 1000);
-	$('#downButton').fadeOut('slow');
-	$('#upButton').fadeIn(1000);
-});
