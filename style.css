@@ -16,8 +16,7 @@ h1 {
 	letter-spacing: -3px;
 	word-spacing: 5px;
   font-weight: normal;
-  font-size: 1.5em;
-  margin-right: 50px;
+  font-size: 1.3em;
 	display: inline;
 	position: relative;
 	border-bottom: 2px solid #e74c3c;
@@ -25,7 +24,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.8em;
 	color: #fff;
 }
 
@@ -64,18 +63,16 @@ div#threejs {
 }
 
 nav#navigation {
-  padding: 10px 0 5px 0;
+  padding: 10px 0;
   text-transform: uppercase;
-	text-align: center;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	color: #e2e2e2;
 	position: absolute;
-	width: 100%;
 	top: 0;
 	z-index: 3;
-	min-width: 500px;
+	min-width: 350px;
 	width: 50%;
-	left: 25%;
+	left: 20%;
 }
 
 nav#navigation>div>div:hover, nav#navigation>div>div:active {
@@ -91,10 +88,14 @@ header#banner {
 }
 
 section {
-	min-width: 500px;
-	width: 50%;
+	min-width: 350px;
+	width: 80%;
 	position: relative;
-	left: 25%;
+	left: 2.5%;
+}
+
+ul  {
+	padding: 0 0 0 20px;
 }
 
 ul li {
