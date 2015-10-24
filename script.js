@@ -1,18 +1,18 @@
 window.onload = function() {
 	var renderer,
-		  scene,
-		  camera,
-		  cameraRadius = 200,
-		  cameraTarget,
-		  particleSystem,
-			cameraX = 0,
-		  cameraY = 0,
-		  cameraZ = cameraRadius,
-		  clock,
-		  parameters,
-		  onParametersUpdate,
-			contentHeight = 600,
-			velocity = 0.0005;
+	scene,
+	camera,
+	cameraRadius = 200,
+	cameraTarget,
+	particleSystem,
+	cameraX = 0,
+	cameraY = 0,
+	cameraZ = cameraRadius,
+	clock,
+	parameters,
+	onParametersUpdate,
+	contentHeight = 600,
+	velocity = 0.0005;
 
 	init();
 	animate();
@@ -26,11 +26,11 @@ window.onload = function() {
 		cameraTarget = new THREE.Vector3( 0, 0, 0 );
 		
 		var numParticles = 2500,
-			  width = 500,
-			  height = 500,
-			  depth = 1000,
-			  systemGeometry = new THREE.Geometry(),
-			  systemMaterial = new THREE.ParticleBasicMaterial({ color: 0xa6b8ca });
+		width = 500,
+		height = 500,
+		depth = 1000,
+		systemGeometry = new THREE.Geometry(),
+		systemMaterial = new THREE.ParticleBasicMaterial({ color: 0xa6b8ca });
 			
 		for( var i = 0; i < numParticles; i++ ) {
 			var vertex = new THREE.Vector3(
