@@ -76,7 +76,7 @@ window.onload = function() {
 $('#upButton').fadeOut(0);
 
 $(window).scroll(function() {
-  if ($(window).scrollTop() + $(window).height() == $(document).height() - 100) {
+  if ($(window).scrollTop() + $(window).height() >= $(document).height() - 100) {
 	$('#upButton').fadeIn(1500);
   }
   else if ($(window).scrollTop() <= 100) {
