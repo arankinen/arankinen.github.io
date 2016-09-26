@@ -55,7 +55,7 @@ div#threejs {
 	z-index: 1;
 	margin: 0;
 	padding: 0;
-	height: 600px;
+	height: 400px;
 }
 
 nav#navigation {
@@ -125,10 +125,11 @@ button#downButton {
   	position: absolute;
 	top: 565px;
 	left: 50%;
+	padding: 8px 0 0 0;
 }
 
 button#upButton {
   	position: relative;
 	left: 50%;
-	padding: 0 0 10px 0;
+	padding: 0 0 8px 0;
 }
