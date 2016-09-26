@@ -75,6 +75,15 @@ window.onload = function() {
 
 $('#upButton').fadeOut(0);
 
+$(window).scroll(function() {
+  if ($(window).scrollTop() + $(window).height() == $(document).height()) {
+	$('#upButton').fadeIn(1500);
+  }
+  else if ($(window).scrollTop() == 0) {
+	$('#downButton').fadeIn(1500);
+  }
+});
+
 $('#downButton').click(function() {
   $('html, body').animate({
     scrollTop: $('#contact').offset().top
